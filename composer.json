@@ -1,0 +1,16 @@
+{
+    "name": "christopher/hello-package",
+    "description": "A simple package just a test",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Christopher Vistal",
+            "email": "christophervistal25@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"Chris\\HelloWorld\\": "src/"}
+    },
+    "require": {}
+}
